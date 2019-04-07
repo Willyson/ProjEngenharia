@@ -1,0 +1,15 @@
+section{
+    width:80%;
+    margin:auto;
+    display:block;
+    height:30%;
+}
+
+
+section a {
+    background-color: red;
+    display:inline-block;
+    width:33%;
+    height:50%;
+
+}

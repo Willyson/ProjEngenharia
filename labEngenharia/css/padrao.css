@@ -1,0 +1,58 @@
+﻿* {
+    padding: 0px;
+    margin:0px;
+}
+
+
+body {
+    font-family: Roboto;
+    font-size: 14pt;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #E6EBF4;
+}
+
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+/*=========== BOTOES PADRAO ========*/
+input[type="submit"], input[type="button"] {
+    border: none;
+    background-color: #D6D6D6;
+    text-transform:uppercase;
+    width:100%;
+}
+
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #C6C6C6;
+}
+/*===================================*/
+
+
+
+.txtPadrao {
+    border:none;
+}
+
+.txtPadrao:hover {
+    background-color: #F0F0F0;
+    transition: .5s;
+}
+
+.formPadrao{
+    width:80%;
+    margin:1em;
+}
+
+.formPadrao label, input {
+    display: block;
+    padding:.3em;
+    margin: .6em 0em .6em 0em;
+    font-size:14pt;
+    width: 99%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" type="text/css" href="../css/padrao.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+    <p>
+        Realize seu cadastro para acessar o sistema!
+    </p>
+
+    <form action="../controler/Usuario/controlerUsuario.php?metodo=1" method="post" id="formCadastraUsuario" class="formPadrao">
+        <input type="text" autofocus name="txtCPF" id="txtCPF" placeholder="CPF"/>
+        <input type="text" name="txtNome" id="txtNome" placeholder="Nome"/>
+        <input type="text" name="txtRG" id="txtRG" placeholder="RG"/>
+        <input type="email" name="txtEmail" id="txtEmail" placeholder="E-mail"/>
+        <input type="password" name="txtSenha" id="txtSenha" placeholder="Senha"/>
+
+        <input type="text" name="txtCEP" id="txtCEP" placeholder="CEP"/>
+        <input type="text" name="txtBairro" id="txtBairro" placeholder="Bairro"/>
+        <input type="text" name="txtCidade" id="txtCidade" placeholder="Cidade"/>
+        <input type="text" name="txtUf" id="txtUf" placeholder="UF"/>
+
+        <input type="submit" name="btnEnviar" id="btnEnviar" value="Salvar" />
+        <input type="button" name="btnVoltar" id="btnVoltar" value="Voltar"/>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿/*
+    Index.html
+
+*/
+
+/*Formulario de login*/
+
+
+#formularioLogin {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+}
+
+
+#formularioLogin label, input, a {
+    display: block;
+    position: relative;
+    padding: .7em 0em .7em 0em;
+    font-size: 16pt;
+    
+}
+
+
+
+#formularioLogin input {
+    width: 95%;
+    margin-top: .6em;
+    margin-bottom: .7em;
+}
+
+
+#formularioLogin a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+#btnEntrar{
+    text-transform: uppercase;
+}
+
+/*=======================*/
