@@ -1,0 +1,1 @@
+INSERT INTO `tipo_conta` (`DESC_TIPO_CONTA`) VALUES ('Comum'), ('Administrador')
