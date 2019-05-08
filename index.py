@@ -43,6 +43,7 @@ def controllerCadastroUsuario():
     ##
     
     NovoUsuario = usuarioModel.Usuario(nome, email, senha, cpf, rg, telefone, tipo, 1, usuarioEndereco)
+ 
     return NovoUsuario.validaDadosUsuario(NovoUsuario)
     
 #------------------------------------------------------
@@ -59,8 +60,14 @@ def loginUsuario():
     email = request.form.get('email')
     senha = request.form.get('senha')
 
-    return email + senha 
+    userLogin = usuarioModel.Usuario.usuario()
+    
+    logado = userLogin.consultaUsuario(email, senha)
 
+    #return userLogin.consultaUsuario(userLogin)
+
+
+###############################################################
 
 ## INICIA A APLICAÇÃO 
 if __name__ == '__main__':
